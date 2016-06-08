@@ -11,6 +11,10 @@
 // Call Program with two files Model and Data files to construct OPLModel .mod and .dat
 /////////////////////////////////////////////////////////////////////////////////////
 
+
+#include <stdio.h>
+#include <tchar.h>
+
 #include <ilopl/iloopl.h>
 #include <sstream>
 #include <iostream>
@@ -18,7 +22,7 @@
 #include <fstream>
 #include <cmath>
 #include <vector>
-#include <boost/lexical_cast.hpp>
+//#include <boost/lexical_cast.hpp>
 #include <set>
 #include <string>
 
