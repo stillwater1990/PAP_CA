@@ -9,7 +9,7 @@ import os.path
 
 print 'Hello Python'
 my_env = os.environ.copy()
-my_env["LD_LIBRARY_PATH"] = "/opt/ibm/ILOG/CPLEX_Studio126/opl/bin/x86-64_linux/"
+my_env["LD_LIBRARY_PATH"] = "/nas/ykaidi/CPLEX_Studio1263/opl/bin/x86-64_linux/"
 
 mod =  sys.argv[1]
 dir_results = 'res'+mod
